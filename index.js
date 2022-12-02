@@ -53,7 +53,7 @@
 
 const loginMass = ["firstLogin", "secondLogin", "thirdLogin"];
 let loginToFind = "secondLogin";
-let message = "";
+let message = `user ${loginToFind} has NOT been found :(`;
 
 for (let i = 0; i < loginMass.length; i += 1) {
   const login = loginMass[i];
@@ -64,7 +64,5 @@ for (let i = 0; i < loginMass.length; i += 1) {
     message = `user ${loginToFind} has been found!`;
     break;
   }
-
-  message = `user ${loginToFind} has NOT been found :(`;
 }
 console.log(message);
