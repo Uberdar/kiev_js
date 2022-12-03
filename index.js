@@ -51,9 +51,9 @@
 
 // console.log("totalMass: ", totalMass);
 
-const loginMass = ["firstLogin", "secondLogin", "thirdLogin"];
-let loginToFind = "secondLogin";
-let message = `user ${loginToFind} has NOT been found :(`;
+// const loginMass = ["firstLogin", "secondLogin", "thirdLogin"];
+// let loginToFind = "secondLogin";
+// let message = `user ${loginToFind} has NOT been found :(`;
 
 // for (let i = 0; i < loginMass.length; i += 1) {
 //   const login = loginMass[i];
@@ -66,12 +66,54 @@ let message = `user ${loginToFind} has NOT been found :(`;
 //   }
 // }
 
-for (const login of loginMass) {
-  console.log("Login :", login);
+// for (const login of loginMass) {
+//   console.log("Login :", login);
 
-  if (login === loginToFind) {
-    message = `user ${loginToFind} has been found!`;
-    break;
-  }
-}
-console.log(message);
+//   if (login === loginToFind) {
+//     message = `user ${loginToFind} has been found!`;
+//     break;
+//   }
+// }
+// console.log(message);
+
+// const messageForLogins = loginMass.includes(loginToFind)
+//   ? `user ${loginToFind} has been found!`
+//   : `user ${loginToFind} has NOT been found :(`;
+
+// console.log(messageForLogins);
+
+// const string = "This Is StRiNG";
+// let splitedString = string.split("");
+// let invertedString = "";
+
+// for (const letter of splitedString) {
+//   if (val === val.toLowerCase()) {
+//     console.log("This is lowercase! --", val);
+//     invertedString += val.toUpperCase();
+//   } else {
+//     console.log(val);
+//     invertedString += val.toLowerCase();
+//   }
+
+//   invertedString +=
+//     letter === letter.toLowerCase()
+//       ? letter.toUpperCase()
+//       : letter.toLowerCase();
+// }
+
+// console.log(invertedString);
+
+// closures ЗАМЫКАНИЯ
+
+// const makeShef = function (name) {
+//   const makeDish = function (dish) {
+//     console.log(`Shef ${name} made ${dish}!`);
+//   };
+//   return makeDish;
+// };
+
+// let t1 = makeShef("mango");
+
+// t1("eggs");
+
+// CLOSURES ЗАМЫКАНИЯ!
