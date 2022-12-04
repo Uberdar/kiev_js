@@ -117,3 +117,38 @@
 // t1("eggs");
 
 // CLOSURES ЗАМЫКАНИЯ!
+
+// функция конструктор
+
+// const Car = function ({ brand, model, price } = {}) {
+//   this.brand = brand;
+//   this.model = model;
+//   this.price = price;
+// };
+
+// const car = new Car({
+//   brand: "audi",
+//   model: "Q3",
+//   price: 202020,
+// });
+// console.log(car);
+
+// классы это синтаксисечкий сахар, удобная обертка для функции конструктора
+
+// class Car1 {
+//   constructor({ brand, model, price } = {}) {
+//     this.brand = brand;
+//     this.model = model;
+//     this.price = price;
+//   }
+// }
+
+// const carInstance = new Car1({
+//   brand: "audi",
+//   model: "Q3",
+//   price: 202020,
+// });
+
+// console.log("carInstance: ", carInstance);
+
+//////////
