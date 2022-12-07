@@ -28,3 +28,5 @@ for (const el of allcateg) {
   console.log("number of elements: ", numberOfCat);
   console.log("");
 }
+
+// query selector all возвращает псевдо массив на котором можно вызвать свойство length
